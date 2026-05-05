@@ -1,0 +1,39 @@
+@charset "utf-8";
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: #000033;
+    height: 988px;
+}
+#wrapper #headder {
+	height: 150px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#headder h1 span {
+    color: #FFFF00;
+    font-size: 50px;
+}
+
+#wrapper #headder hr {
+    width: 867px;
+    height: 1px;
+}
+#wrapper #main {
+    height: 750px;
+}
+body {
+    font-family: Arial, "Times New Roman";
+    color: #FFFFFF;
+    background-image: url(img/fon1.jpg);
+}
+#wrapper #main img {
+    float: left;
+}
+tbody tr td {
+    text-align: center;
+}
+#wrapper #footer {
+    height: 90px;
+}
