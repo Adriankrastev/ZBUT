@@ -1,0 +1,39 @@
+@charset "utf-8";
+body {
+    background-image: -webkit-linear-gradient(315deg,rgba(136,244,255,1.00) 0%,rgba(181,129,237,1.00) 100%,rgba(223,107,108,1.00) 100%);
+    background-image: -moz-linear-gradient(315deg,rgba(136,244,255,1.00) 0%,rgba(181,129,237,1.00) 100%,rgba(223,107,108,1.00) 100%);
+    background-image: -o-linear-gradient(315deg,rgba(136,244,255,1.00) 0%,rgba(181,129,237,1.00) 100%,rgba(223,107,108,1.00) 100%);
+    background-image: linear-gradient(135deg,rgba(136,244,255,1.00) 0.00%,rgba(181,129,237,1.00) 100%,rgba(223,107,108,1.00) 100%);
+    height: auto;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFCC66;
+    width: 900px;
+    height: 800px;
+}
+#wrapper #header {
+    height: 150px;
+    padding-top: 14px;
+    margin-top: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #FFFFFF;
+}
+#wrapper #main img {
+    float: left;
+    border-radius: 48px 21px 50px 22px / 43px 16px 39px 18px;
+    padding-left: 13px;
+    padding-right: 12px;
+}
+#wrapper #header #rounded {
+    background-color: #663300;
+    height: 104px;
+    border-radius: 42px 12px / 46px 12px;
+    text-align: center;
+    padding-top: 19px;
+}
+#header #rounded h1 {
+    text-align: center;
+}
