@@ -12,27 +12,28 @@ body {
     background-color: #FFCC66;
     width: 900px;
     height: 800px;
+    margin-top: 0px;
+    padding-top: 11px;
 }
 #wrapper #header {
-    height: 150px;
-    padding-top: 14px;
-    margin-top: 0px;
+    height: 112px;
+    padding-top: 19px;
+    margin-top: 1px;
     padding-left: 8px;
     padding-right: 8px;
     color: #FFFFFF;
+    background-color: #663300;
+    border-radius: 42px 12px / 46px 12px;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 5px;
+    margin-bottom: 0px;
 }
 #wrapper #main img {
     float: left;
     border-radius: 48px 21px 50px 22px / 43px 16px 39px 18px;
     padding-left: 13px;
     padding-right: 12px;
-}
-#wrapper #header .rounded {
-    background-color: #663300;
-    height: 104px;
-    border-radius: 42px 12px / 46px 12px;
-    text-align: center;
-    padding-top: 19px;
 }
 #header #rounded h1 {
     text-align: center;
