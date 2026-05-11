@@ -12,7 +12,13 @@ body {
     width: 900px;
     height: 1200px;
     background-color: #008A61;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+#wrapper #main {
+    height: 979px;
+}
+
 #wrapper #header {
     height: 161px;
     padding-top: 34px;
@@ -24,4 +30,9 @@ body {
     height: 129px;
     border-radius: 40px 15px;
     text-align: center;
+}
+#wrapper #main img {
+    border-radius: 40px 60px 60px 24px / 40px 20px 60px 24px;
+    float: left;
+    padding-right: 31px;
 }
