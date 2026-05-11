@@ -5,6 +5,8 @@
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 #wrapper #header {
     height: 189px;
@@ -24,4 +26,5 @@ body {
     background-color: #FFFFFF;
     text-align: center;
     height: 141px;
+    border-radius: 40px 15px;
 }
