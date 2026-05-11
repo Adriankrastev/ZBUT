@@ -1,13 +1,17 @@
 @charset "utf-8";
 #wrapper {
     background-color: #FF6600;
-    height: 600px;
+    height: 700px;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+#wrapper #main {
+    height: 483px;
+}
+
 #wrapper #header {
     height: 189px;
     padding-top: 8px;
