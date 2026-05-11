@@ -4,6 +4,7 @@ body {
     background-image: -moz-linear-gradient(315deg,rgba(135,179,255,1.00) 0%,rgba(172,97,255,1.00) 100%);
     background-image: -o-linear-gradient(315deg,rgba(135,179,255,1.00) 0%,rgba(172,97,255,1.00) 100%);
     background-image: linear-gradient(135deg,rgba(135,179,255,1.00) 0%,rgba(172,97,255,1.00) 100%);
+    color: #FFFFFF;
 }
 #wrapper {
     margin-left: auto;
@@ -11,4 +12,16 @@ body {
     width: 900px;
     height: 1200px;
     background-color: #008A61;
+}
+#wrapper #header {
+    height: 161px;
+    padding-top: 34px;
+    padding-left: 11px;
+    padding-right: 10px;
+}
+#wrapper #header #rounded {
+    background-color: #006600;
+    height: 129px;
+    border-radius: 40px 15px;
+    text-align: center;
 }
