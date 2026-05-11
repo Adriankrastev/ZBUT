@@ -25,6 +25,10 @@ body {
 #wrapper #main ul {
     text-align: left;
 }
+#wrapper #main #right {
+    text-align: left;
+}
+
 
 #wrapper #header {
     height: 161px;
