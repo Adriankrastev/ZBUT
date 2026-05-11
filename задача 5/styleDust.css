@@ -10,13 +10,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    height: 1200px;
+    height: 3000px;
     background-color: #008A61;
     padding-left: 10px;
     padding-right: 10px;
 }
 #wrapper #main {
-    height: 979px;
+    height: 2773px;
+    text-align: center;
+}
+#wrapper #main p {
+    text-align: left;
+}
+#wrapper #main ul {
+    text-align: left;
 }
 
 #wrapper #header {
