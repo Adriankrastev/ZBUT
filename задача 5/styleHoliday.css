@@ -32,7 +32,8 @@ body {
     text-align: center;
     height: 141px;
     border-radius: 40px 15px;
-}#wrapper #main img {
+}
+#wrapper #main img {
     float: left;
     border-radius: 40px 15px;
     padding-right: 6px;
