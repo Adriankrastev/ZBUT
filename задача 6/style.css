@@ -24,3 +24,6 @@ body {
     text-align: center;
     padding-top: 18px;
 }
+#wrapper #main {
+    height: 891px;
+}
