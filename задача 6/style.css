@@ -6,7 +6,7 @@ body {
     background-image: linear-gradient(135deg,rgba(57,92,151,1.00) 0%,rgba(60,23,100,1.00) 100%);
 }
 #wrapper {
-    height: 1000px;
+    height: 799px;
     width: 900px;
     background-color: #00FF99;
     margin-left: auto;
@@ -25,5 +25,8 @@ body {
     padding-top: 18px;
 }
 #wrapper #main {
-    height: 891px;
+    height: auto;
+}
+#wrapper #main h2 {
+    text-align: center;
 }
