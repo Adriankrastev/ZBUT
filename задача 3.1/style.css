@@ -6,3 +6,9 @@ body {
     background-image: linear-gradient(135deg,rgba(253,173,174,1.00) 0%,rgba(147,180,253,1.00) 100%);
     height: 132vh;
 }
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99CC33;
+    width: 900px;
+}
