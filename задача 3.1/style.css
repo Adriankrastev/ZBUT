@@ -12,7 +12,13 @@ body {
     background-color: #99CC33;
     width: 900px;
     height: 1000px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
+#wrapper #main #b {
+    text-align: center;
+}
+
 #wrapper #headre {
     height: 100px;
     padding-top: 20px;
@@ -24,4 +30,10 @@ body {
 #wrapper #main img {
     float: right;
     padding-top: 15px;
+}
+#wrapper #main {
+    height: 864px;
+}
+#wrapper #main #a {
+    text-align: center;
 }
