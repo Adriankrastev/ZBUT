@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     background-color: #99CC33;
     width: 900px;
-    height: 1000px;
+    height: 1200px;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -32,8 +32,11 @@ body {
     padding-top: 15px;
 }
 #wrapper #main {
-    height: 864px;
+    height: 1061px;
 }
 #wrapper #main #a {
+    text-align: center;
+}
+#wrapper #main h1 {
     text-align: center;
 }
