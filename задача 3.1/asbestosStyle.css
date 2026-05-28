@@ -11,4 +11,28 @@ body {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+}
+#wrapper #main ul {
+    background-color: #FFFFFF;
+}
+#wrapper #main ol {
+
+}
+#main ol li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+
+
+#wrapper #header {
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+#wrapper #main img {
+    float: left;
+    padding-right: 10px;
 }
