@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+    background-image: -webkit-linear-gradient(315deg,rgba(79,0,166,1.00) 0%,rgba(0,62,201,1.00) 100%);
+    background-image: -moz-linear-gradient(315deg,rgba(79,0,166,1.00) 0%,rgba(0,62,201,1.00) 100%);
+    background-image: -o-linear-gradient(315deg,rgba(79,0,166,1.00) 0%,rgba(0,62,201,1.00) 100%);
+    background-image: linear-gradient(135deg,rgba(79,0,166,1.00) 0.00%,rgba(0,62,201,1.00) 100%);
+}
+#wrapper {
+    background-color: #F0F0F0;
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper #main img {
+    float: left;
+    padding-right: 10px;
+}
+
+#wrapper #header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
