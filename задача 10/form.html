@@ -14,48 +14,49 @@
 
 <h1>ВАШИТЕ ПРЕПОРЪКИ ЗА САЙТА</h1>
 
-<form>
+<!-- Added an ID to the form for JavaScript handling -->
+<form id="recommendationForm">
 
 <div class="section-title">ОСНОВНИ ДАННИ</div>
 
 <div class="row">
 <label>ИМЕ</label>
-<input type="text">
+<input type="text" id="firstName">
 </div>
 
 <div class="row">
 <label>ПРЕЗИМЕ</label>
-<input type="text">
+<input type="text" id="middleName">
 </div>
 
 <div class="row">
 <label>ФАМИЛИЯ</label>
-<input type="text">
+<input type="text" id="lastName">
 </div>
 
 <div class="row">
 <label>АДРЕС</label>
-<textarea></textarea>
+<textarea id="address"></textarea>
 </div>
 
 <div class="section-title">ДОПЪЛНИТЕЛНА ИНФОРМАЦИЯ</div>
 
 <div class="radio-group">
-<input type="radio" name="gender"> МЪЖ
+<input type="radio" name="gender" value="Мъж" id="genderMale"> МЪЖ
 <br><br>
-<input type="radio" name="gender"> ЖЕНА
+<input type="radio" name="gender" value="Жена" id="genderFemale"> ЖЕНА
 </div>
 
 <div class="checkbox-group">
-<input type="checkbox"> РАБОТИТЕ ЛИ?
+<input type="checkbox" id="workStatus"> РАБОТИТЕ ЛИ?
 <br><br>
-<input type="checkbox"> УЧИТЕ ЛИ?
+<input type="checkbox" id="studyStatus"> УЧИТЕ ЛИ?
 </div>
 
 <div class="section-title">ПРЕПОРЪКИ</div>
 
 <div class="row">
-<textarea placeholder="ТУК НАПИШЕТЕ ПРЕПОРЪКА"></textarea>
+<textarea id="recommendation" placeholder="ТУК НАПИШЕТЕ ПРЕПОРЪКА"></textarea>
 </div>
 
 <div class="buttons">
@@ -65,7 +66,61 @@
 
 </form>
 
+<!-- This is where the output will appear -->
+<div id="outputContainer" style="margin-top: 30px; padding: 15px; border-top: 2px solid #ccc; display: none;">
+    <h3>You entered:</h3>
+    <div id="outputText"></div>
 </div>
+
+</div>
+
+<script>
+document.getElementById('recommendationForm').addEventListener('submit', function(event) {
+    // 1. Prevent the page from reloading
+    event.preventDefault();
+
+    // 2. Grab all the values from the form
+    const firstName = document.getElementById('firstName').value;
+    const middleName = document.getElementById('middleName').value;
+    const lastName = document.getElementById('lastName').value;
+    const address = document.getElementById('address').value;
+    
+    // Handle Radio Buttons (Gender)
+    const genderMale = document.getElementById('genderMale').checked;
+    const genderFemale = document.getElementById('genderFemale').checked;
+    let gender = "Не е посочен";
+    if (genderMale) gender = "Мъж";
+    if (genderFemale) gender = "Жена";
+
+    // Handle Checkboxes
+    const works = document.getElementById('workStatus').checked ? "Да" : "Не";
+    const studies = document.getElementById('studyStatus').checked ? "Да" : "Не";
+
+    // Handle Recommendation text
+    const recommendation = document.getElementById('recommendation').value;
+
+    // 3. Format the output string
+    const outputHtml = `
+        <p><strong>Име:</strong> ${firstName} ${middleName} ${lastName}</p>
+        <p><strong>Адрес:</strong> ${address}</p>
+        <p><strong>Пол:</strong> ${gender}</p>
+        <p><strong>Работи ли?:</strong> ${works}</p>
+        <p><strong>Учи ли?:</strong> ${studies}</p>
+        <p><strong>Препоръка:</strong> ${recommendation}</p>
+    `;
+
+    // 4. Display the output
+    const outputContainer = document.getElementById('outputContainer');
+    const outputText = document.getElementById('outputText');
+    
+    outputText.innerHTML = outputHtml;
+    outputContainer.style.display = 'block'; // Make the section visible
+});
+
+document.getElementById('recommendationForm').addEventListener('reset', function() {
+    document.getElementById('outputContainer').style.display = 'none';
+});
+</script>
 
 </body>
 </html>
