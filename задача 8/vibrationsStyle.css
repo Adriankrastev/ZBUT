@@ -27,3 +27,18 @@ body {
     color: #FFFFFF;
 
 }
+.container #main img {
+    padding: 10px;
+    float: left;
+}
+.container #main .darkBlue {
+    text-align: center;
+    background-color: #000033;
+}
+.container #main #padding {
+    padding-bottom: 40px;
+}
+#main #padding li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
