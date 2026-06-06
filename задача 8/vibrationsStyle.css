@@ -10,13 +10,18 @@
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    height: 1000px;
+    height: auto;
     background-color: #008056;
     padding-left: 10px;
     padding-right: 10px;
 }
 .container #main {
 }
+.container #main #padded {
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+
 
 
 body {
