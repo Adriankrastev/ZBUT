@@ -1,0 +1,29 @@
+@charset "utf-8";
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1000px;
+    background-color: #008056;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container #main {
+}
+
+
+body {
+    background-image: -webkit-linear-gradient(315deg,rgba(0,74,200,1.00) 0%,rgba(102,0,214,1.00) 46.22%,rgba(150,0,0,1.00) 99.18%);
+    background-image: -moz-linear-gradient(315deg,rgba(0,74,200,1.00) 0%,rgba(102,0,214,1.00) 46.22%,rgba(150,0,0,1.00) 99.18%);
+    background-image: -o-linear-gradient(315deg,rgba(0,74,200,1.00) 0%,rgba(102,0,214,1.00) 46.22%,rgba(150,0,0,1.00) 99.18%);
+    background-image: linear-gradient(135deg,rgba(0,74,200,1.00) 0%,rgba(102,0,214,1.00) 46.22%,rgba(150,0,0,1.00) 99.18%);
+    color: #FFFFFF;
+
+}
