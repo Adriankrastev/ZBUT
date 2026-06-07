@@ -1,1 +1,28 @@
 @charset "utf-8";
+body {
+    background-image: -webkit-linear-gradient(315deg,rgba(0,61,164,1.00) 0%,rgba(73,0,153,1.00) 98.86%);
+    background-image: -moz-linear-gradient(315deg,rgba(0,61,164,1.00) 0%,rgba(73,0,153,1.00) 98.86%);
+    background-image: -o-linear-gradient(315deg,rgba(0,61,164,1.00) 0%,rgba(73,0,153,1.00) 98.86%);
+    background-image: linear-gradient(135deg,rgba(0,61,164,1.00) 0%,rgba(73,0,153,1.00) 98.86%);
+}
+#wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper #header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wrapper #main img {
+    margin-top: 31px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
