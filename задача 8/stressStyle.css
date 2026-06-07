@@ -7,13 +7,17 @@ body {
 }
 #wrapper {
     width: 900px;
-    height: 1000px;
+    height: auto;
     background-color: #9595DB;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
+#wrapper #main #padding {
+    padding-bottom: 30px;
+}
+
 #wrapper #heder {
     text-align: center;
     padding-top: 10px;
@@ -22,4 +26,17 @@ body {
 #wrapper #main img {
     padding: 10px;
     float: left;
+}
+#wrapper #main #padded {
+    padding-bottom: 30px;
+}
+#main ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#wrapper #main .gray {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #666666;
 }
