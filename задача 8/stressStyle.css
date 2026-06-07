@@ -19,3 +19,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#wrapper #main img {
+    padding: 10px;
+    float: left;
+}
