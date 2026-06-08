@@ -26,3 +26,8 @@ body {
     text-align: center;
 
 }
+#wrapper #main #white {
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
