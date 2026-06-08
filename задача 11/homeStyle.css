@@ -7,13 +7,17 @@ body {
 }
 #wrapper {
     width: 900px;
-    height: 1500px;
+    height: auto;
     background-color: #9999CC;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
+#wrapper #main #padded {
+    padding-bottom: 25px;
+}
+
 #wrapper #main img {
     float: right;
     padding-left: 10px;
