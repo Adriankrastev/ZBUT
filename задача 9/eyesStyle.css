@@ -11,4 +11,25 @@ body {
     height: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper #main img {
+    padding-top: 20px;
+    padding-right: 74px;
+    padding-left: 20px;
+    padding-bottom: 54px;
+    float: left;
+}
+
+#wrapper #headder {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#main #aside ul {
+    list-style-type: circle;
+}
+#main #aside #align {
+    padding-bottom: 24px;
 }
