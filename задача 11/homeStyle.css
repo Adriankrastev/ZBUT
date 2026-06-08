@@ -1,1 +1,28 @@
 @charset "utf-8";
+body {
+    background-image: -webkit-linear-gradient(315deg,rgba(143,85,207,1.00) 0%,rgba(53,93,183,1.00) 100%);
+    background-image: -moz-linear-gradient(315deg,rgba(143,85,207,1.00) 0%,rgba(53,93,183,1.00) 100%);
+    background-image: -o-linear-gradient(315deg,rgba(143,85,207,1.00) 0%,rgba(53,93,183,1.00) 100%);
+    background-image: linear-gradient(135deg,rgba(143,85,207,1.00) 0%,rgba(53,93,183,1.00) 100%);
+}
+#wrapper {
+    width: 900px;
+    height: 1500px;
+    background-color: #9999CC;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper #main img {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper #header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
