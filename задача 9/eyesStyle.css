@@ -33,3 +33,11 @@ body {
 #main #aside #align {
     padding-bottom: 24px;
 }
+#wrapper #main #aside {
+    padding-bottom: 10px;
+}
+#wrapper #main .gray {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #666666;
+}
