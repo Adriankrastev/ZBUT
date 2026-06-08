@@ -8,7 +8,7 @@ body {
 #wrapper {
     background-color: #99FF66;
     width: 900px;
-    height: 1000px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -40,4 +40,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     background-color: #666666;
+}
+#wrapper #main #padded {
+    padding-bottom: 25px;
 }
