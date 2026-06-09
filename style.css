@@ -75,3 +75,6 @@ body {
     width: 124px;
     margin-bottom: 3px;
 }
+#aside ul li {
+    color: #4F85FF;
+}
